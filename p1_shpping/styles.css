@@ -1,0 +1,23 @@
+.header__title--text{
+    margin: auto;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main > * {
+    margin: 10px;
+}
+ul{
+    background-color: yellow;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>window.screen:<h2 id="window-screen"></h2></h1>
+    <h1>window.outer:<h2 id="window-outer"></h2> </h1>
+    <h1>window.inner:<h2 id="window-inner"></h2> </h1>
+    <h1>documentElement.clientWidht:<p id="window-clientWidht"></p></h1>
+    <script>
+        let x = window.screenX;
+        let y = window.screenY;
+        const screen1 = document.getElementById("window-screen");
+        screen1.innerHTML = `${window.screen.width}, ${window.screen.height}`;
+        window.addEventListener("resize", () => {
+            console.log("asd");
+        })
+
+        
+    </script>
+</body>
+</html>
